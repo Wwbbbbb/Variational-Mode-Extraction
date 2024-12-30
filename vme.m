@@ -9,7 +9,6 @@ function [IMFd,centralFreqs,residuals] = vme(rawSignal,sampleRate,varargin)
     %   rawSignal - 原始信号，通常是一个一维数组或向量。
     %   sampleRate - 采样率，单位为 Hz。信号采样频率。
     %   varargin - 可选参数，以键值对的形式传递。支持以下选项：
-    %       'NumIMFd' - 分解的目标IMF数量，默认为5。
     %       'PenaltyFactor' - 惩罚系数 alpha，默认为2000。大小会约束IMF的带宽。
     %       'LMUpdateRate' - 更新率系数 tau，默认为0.01。
     %       'ExpectedIMFd' - 预期的IMF模式，默认为空。暂无实现

@@ -4,7 +4,7 @@
 * 参考文献：Variational Mode Extraction: A New Efficient Method to Derive Respiratory Signals from ECG
 
 # 例子
-* 对雷达接受信号相位差分后提取低频分量
+* 对雷达接收的相位差分信号提取低频分量
 <div align="center">
     <img src="原信号时域图.png" height=350>
     <img src="IMF时域图.png" height=350>
